@@ -31,3 +31,4 @@ Top-level folders
 Follow the repository contribution guidelines and Conventional Commits for commit messages. Example initial commit:
 
 chore: initialize SBAI engineering workspace and repository structure
+## Edited from Termux
