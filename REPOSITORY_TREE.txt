@@ -1,0 +1,252 @@
+.
+├── ai
+│   └── README.md
+├── apps
+│   └── README.md
+├── assets
+│   └── README.md
+├── databases
+│   └── README.md
+├── docs
+│   ├── adr
+│   │   ├── 0000-template.md
+│   │   ├── ADR-0001-adopt-enterprise-architecture-v1.md
+│   │   └── README.md
+│   ├── ai
+│   │   ├── agents
+│   │   ├── architecture
+│   │   ├── departments
+│   │   ├── evaluation
+│   │   ├── governance
+│   │   ├── memory
+│   │   ├── models
+│   │   ├── orchestration
+│   │   ├── prompts
+│   │   ├── registry
+│   │   ├── specialists
+│   │   ├── tools
+│   │   └── workforce
+│   ├── api
+│   │   └── README.md
+│   ├── architecture
+│   │   ├── diagrams
+│   │   │   ├── mermaid
+│   │   │   ├── FOUNDER_OS_ARCHITECTURE.md
+│   │   │   └── README.md
+│   │   ├── ARCHITECTURE_INDEX.md
+│   │   ├── ARCHITECTURE_PRINCIPLES.md
+│   │   ├── DOMAIN_MODEL.md
+│   │   ├── EA_DEPENDENCY_MAP.md
+│   │   ├── EA_FRAMEWORK.md
+│   │   ├── EA_INDEX.md
+│   │   ├── EA_LIFECYCLE.md
+│   │   ├── EA_TEMPLATE.md
+│   │   ├── ENTERPRISE_ARCHITECTURE.md
+│   │   ├── LAYER_MODEL.md
+│   │   ├── MODULE_MAP.md
+│   │   ├── README.md
+│   │   └── SYSTEM_CONTEXT.md
+│   ├── capabilities
+│   ├── constitution
+│   │   ├── AI_CONSTITUTION.md
+│   │   ├── CONSTITUTIONAL_AMENDMENTS.md
+│   │   ├── CONSTITUTIONAL_GLOSSARY.md
+│   │   ├── CONSTITUTIONAL_HISTORY.md
+│   │   ├── CONSTITUTIONAL_POLICIES.md
+│   │   ├── CONSTITUTIONAL_PRINCIPLES.md
+│   │   ├── CONSTITUTIONAL_REGISTRY.md
+│   │   ├── DATA_CONSTITUTION.md
+│   │   ├── ENGINEERING_CONSTITUTION.md
+│   │   ├── KNOWLEDGE_CONSTITUTION.md
+│   │   ├── OPERATIONS_CONSTITUTION.md
+│   │   ├── PRODUCT_CONSTITUTION.md
+│   │   ├── README.md
+│   │   ├── RESEARCH_CONSTITUTION.md
+│   │   ├── SBAI_CONSTITUTION.md
+│   │   └── SECURITY_CONSTITUTION.md
+│   ├── constitutional
+│   │   └── README.md
+│   ├── documentation
+│   │   ├── DOCUMENT_STANDARD.md
+│   │   ├── IDENTIFIER_STANDARD.md
+│   │   └── README.md
+│   ├── engineering
+│   │   ├── automation
+│   │   ├── principles
+│   │   ├── quality
+│   │   ├── reviews
+│   │   ├── testing
+│   │   └── workflows
+│   ├── foundation
+│   │   ├── CORE_VALUES.md
+│   │   ├── DESIGN_PHILOSOPHY.md
+│   │   ├── ENGINEERING_PRINCIPLES.md
+│   │   ├── FOUNDATION_BASELINE_V1.md
+│   │   ├── MISSION.md
+│   │   ├── PROJECT_SCOPE.md
+│   │   ├── README.md
+│   │   └── VISION.md
+│   ├── governance
+│   │   ├── compliance
+│   │   ├── decision-records
+│   │   ├── enterprise
+│   │   ├── policies
+│   │   ├── risk
+│   │   └── standards
+│   ├── implementation
+│   │   ├── founder-platform
+│   │   │   ├── PRD.md
+│   │   │   └── README.md
+│   │   ├── README.md
+│   │   ├── implementation-roadmap.md
+│   │   ├── milestones.md
+│   │   └── module-index.md
+│   ├── index
+│   │   ├── AI_INDEX.md
+│   │   ├── ARCHITECTURE_INDEX.md
+│   │   ├── CAPABILITY_INDEX.md
+│   │   ├── DOCUMENT_INDEX.md
+│   │   ├── MASTER_INDEX.md
+│   │   ├── MODULE_INDEX.md
+│   │   ├── OPERATING_SYSTEM_INDEX.md
+│   │   ├── PLATFORM_INDEX.md
+│   │   ├── PRODUCT_INDEX.md
+│   │   └── ROADMAP_INDEX.md
+│   ├── knowledge
+│   │   ├── catalog
+│   │   ├── graph
+│   │   ├── memory
+│   │   ├── ontology
+│   │   ├── research
+│   │   └── taxonomy
+│   ├── module-framework
+│   │   ├── MODULE_IMPLEMENTATION_GUIDE.md
+│   │   ├── MODULE_LIFECYCLE.md
+│   │   ├── MODULE_REVIEW_PROCESS.md
+│   │   ├── MODULE_TEMPLATE.md
+│   │   └── README.md
+│   ├── modules
+│   │   ├── ai
+│   │   │   └── README.md
+│   │   ├── applications
+│   │   │   └── README.md
+│   │   ├── architecture
+│   │   │   └── README.md
+│   │   ├── data
+│   │   │   └── README.md
+│   │   ├── governance
+│   │   │   ├── MOD-0001_ENTERPRISE_GOVERNANCE.md
+│   │   │   └── README.md
+│   │   ├── hardware
+│   │   │   └── README.md
+│   │   ├── infrastructure
+│   │   │   └── README.md
+│   │   ├── knowledge
+│   │   │   └── README.md
+│   │   ├── os
+│   │   │   └── README.md
+│   │   ├── robotics
+│   │   │   └── README.md
+│   │   ├── security
+│   │   │   └── README.md
+│   │   ├── services
+│   │   │   └── README.md
+│   │   ├── space
+│   │   │   └── README.md
+│   │   ├── MODULE_FRAMEWORK.md
+│   │   ├── MODULE_INDEX.md
+│   │   ├── MODULE_METADATA_STANDARD.md
+│   │   ├── MODULE_TEMPLATE.md
+│   │   └── README.md
+│   ├── operating-systems
+│   │   ├── ai-os
+│   │   ├── business-os
+│   │   ├── customer-os
+│   │   ├── engineering-os
+│   │   ├── founder-os
+│   │   ├── hardware-os
+│   │   ├── innovation-os
+│   │   ├── knowledge-os
+│   │   ├── operations-os
+│   │   ├── research-os
+│   │   ├── robotics-os
+│   │   ├── security-os
+│   │   └── space-os
+│   ├── operations
+│   │   ├── business-continuity
+│   │   ├── deployment
+│   │   ├── incident-response
+│   │   ├── logging
+│   │   ├── monitoring
+│   │   └── observability
+│   ├── platforms
+│   │   ├── ai
+│   │   ├── automation
+│   │   ├── customer
+│   │   ├── founder
+│   │   │   ├── AI_MODEL.md
+│   │   │   ├── DATA_MODEL.md
+│   │   │   ├── FOUNDER_OS_ARCHITECTURE.md
+│   │   │   ├── FOUNDER_PLATFORM.md
+│   │   │   ├── KNOWLEDGE_MODEL.md
+│   │   │   ├── NAVIGATION_MODEL.md
+│   │   │   ├── PERMISSION_MODEL.md
+│   │   │   ├── README.md
+│   │   │   ├── WORKFLOW_MODEL.md
+│   │   │   └── WORKSPACE_MODEL.md
+│   │   ├── identity
+│   │   ├── infrastructure
+│   │   ├── knowledge
+│   │   ├── security
+│   │   └── workflow
+│   ├── products
+│   │   ├── api
+│   │   ├── customer
+│   │   ├── desktop
+│   │   ├── founder
+│   │   ├── mobile
+│   │   └── web
+│   ├── repository
+│   │   ├── README.md
+│   │   └── REPOSITORY_STANDARD.md
+│   ├── research
+│   │   └── README.md
+│   ├── roadmap
+│   │   └── README.md
+│   ├── security
+│   │   └── README.md
+│   ├── standards
+│   ├── templates
+│   │   ├── README.md
+│   │   └── folder-readme-template.md
+│   ├── MASTER_ARCHITECTURE.md
+│   └── README.md
+├── hardware
+│   └── README.md
+├── infrastructure
+│   └── README.md
+├── os
+│   └── README.md
+├── packages
+│   └── README.md
+├── robotics
+│   └── README.md
+├── scripts
+│   └── README.md
+├── security
+│   └── README.md
+├── services
+│   └── README.md
+├── space
+│   └── README.md
+├── tests
+│   └── README.md
+├── tools
+│   └── README.md
+├── CHANGELOG.md
+├── LICENSE
+├── README.md
+├── REPOSITORY_TREE.txt
+└── SECURITY.md
+
+124 directories, 126 files
