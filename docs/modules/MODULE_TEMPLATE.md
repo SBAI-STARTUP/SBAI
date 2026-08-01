@@ -1,131 +1,67 @@
-# Constitutional Module Template
+# SBAI Constitutional Module Template
 
 Version: 1.0.0
 
-Status: Standard
+Status: Template
 
 Owner: Founder
 
-Document ID: MOD-002
-
-Related Documents:
-- CONST-001 SBAI Constitution
-- MOD-000 Constitutional Module Framework
-- MOD-001 Constitutional Module Index
+Module ID: MOD-XXXX
 
 ---
 
 # Purpose
 
-This template defines the mandatory structure for every Constitutional Module.
-
-Every module shall follow this template unless superseded by the SBAI Constitution.
+Describe why this module exists.
 
 ---
 
-# Module Metadata
+# Scope
 
-- Module ID
-- Module Name
-- Category
-- Tier
-- Priority
-- Criticality
-- Status
-- Version
-- Owner
+Describe what this module governs.
 
 ---
 
-# Strategic Layer
+# Responsibilities
 
-## Vision
-
-## Purpose
-
-## Scope
-
-## Objectives
-
-## Success Criteria
+- Responsibility 1
+- Responsibility 2
+- Responsibility 3
 
 ---
 
-# Architectural Layer
+# Requirements
 
-## Architecture
-
-## Components
-
-## Interfaces
-
-## APIs
-
-## Events
-
-## Data Model
-
-## AI Integration
-
-## Security Model
-
-## Dependencies
-
-## Constraints
+List mandatory requirements.
 
 ---
 
-# Operational Layer
+# Constraints
 
-## Implementation
-
-## Testing
-
-## Deployment
-
-## Monitoring
-
-## Operations
-
-## Maintenance
-
-## Evolution Roadmap
+List limitations or restrictions.
 
 ---
 
-# Governance
+# Interfaces
 
-## Related EA Documents
-
-## Related ADRs
-
-## Related Standards
-
-## Related Modules
+Describe interactions with other modules.
 
 ---
 
-# Risks
+# Dependencies
+
+List required modules.
 
 ---
 
-# Assumptions
+# Related Documents
+
+List related EA, ADR, DOC, or other modules.
 
 ---
 
-# Metrics
+# Revision History
 
----
-
-# Version History
-
----
-
-# Changelog
-
----
-
-# Guiding Principle
-
-Every Constitutional Module shall remain modular, reusable, constitution-compliant, and independently governable.
-
+| Version | Date | Description |
+|----------|------|-------------|
+|1.0.0|YYYY-MM-DD|Initial version|
