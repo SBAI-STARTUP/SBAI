@@ -1,88 +1,167 @@
 # SBAI Core Values
 
-Version: 1.0.0
-
-Status: Approved
-
-Owner: Founder
-
-Module ID: F-003
-
-Related Modules:
-- F-001 Vision
-- F-002 Mission
-- F-004 Engineering Principles
+**Document ID:** FND-004  
+**Version:** 1.0.0  
+**Status:** Approved  
+**Owner:** Founder  
+**Category:** Foundation
 
 ---
 
-# Purpose
+# 1. Purpose
 
-The core values define the principles that guide every architectural, engineering, security, product, and organizational decision within SBAI.
+This document defines the fundamental values that guide every decision, architecture, product, platform, AI system, engineering process, and future evolution of SBAI.
+
+These values are permanent unless amended through the constitutional governance process.
 
 ---
 
-# Core Values
+# 2. Core Values
 
-## 1. Security First
+## 2.1 Long-Term Thinking
+
+Every decision shall prioritize long-term sustainability over short-term convenience.
+
+---
+
+## 2.2 Integrity
+
+Systems, documentation, data, and AI behavior shall remain accurate, transparent, and trustworthy.
+
+---
+
+## 2.3 Security by Design
 
 Security is a foundational requirement, not an optional feature.
 
----
-
-## 2. AI Native
-
-Artificial Intelligence is treated as a primary engineering capability throughout the platform.
+Every platform, service, product, and AI capability shall incorporate security from the beginning of its lifecycle.
 
 ---
 
-## 3. Documentation First
+## 2.4 AI-First Engineering
 
-Every important decision, architecture, interface, and implementation must be documented.
-
----
-
-## 4. Modular by Design
-
-Systems should be loosely coupled, reusable, independently maintainable, and easily extensible.
+Artificial intelligence is treated as a primary engineering capability that enhances productivity, quality, and innovation while remaining under constitutional governance.
 
 ---
 
-## 5. Founder Directed
+## 2.5 Knowledge Preservation
 
-The founder remains the final authority for strategic decisions while AI systems assist in planning and execution.
+Knowledge is a strategic enterprise asset.
 
----
-
-## 6. Long-Term Thinking
-
-Engineering decisions prioritize long-term maintainability over short-term convenience.
+All significant architectural decisions, research, implementations, and lessons learned shall be documented and preserved.
 
 ---
 
-## 7. Continuous Improvement
+## 2.6 Engineering Excellence
 
-Every module, process, and workflow should evolve through measurable improvements.
+Every component shall strive for:
 
----
-
-## 8. Quality Over Speed
-
-Correctness, reliability, and maintainability take precedence over rapid delivery.
-
----
-
-## 9. Ethical Engineering
-
-SBAI will be designed to respect applicable laws, user privacy, security, and responsible AI practices.
+- Reliability
+- Maintainability
+- Performance
+- Scalability
+- Simplicity
+- Quality
 
 ---
 
-## 10. Knowledge Centric
+## 2.7 Documentation First
 
-Knowledge is treated as a permanent organizational asset and must be version-controlled, searchable, and reusable.
+Architecture precedes implementation.
+
+Every major system shall be documented before development begins.
 
 ---
 
-# Engineering Rule
+## 2.8 Constitutional Governance
 
-Every future module within SBAI should be evaluated against these core values before approval.
+All systems, AI agents, platforms, and enterprise decisions shall operate within the SBAI Constitution.
+
+---
+
+## 2.9 Modularity
+
+Every component should be independently understandable, reusable, replaceable, and maintainable.
+
+---
+
+## 2.10 Continuous Improvement
+
+Every document, platform, AI capability, and engineering process should evolve through controlled improvement without compromising architectural stability.
+
+---
+
+## 2.11 Innovation
+
+Innovation shall solve meaningful problems while preserving engineering quality and enterprise consistency.
+
+---
+
+## 2.12 Founder Responsibility
+
+The founder remains accountable for strategic direction, constitutional amendments, enterprise governance, and major architectural decisions.
+
+---
+
+# 3. Engineering Culture
+
+SBAI encourages:
+
+- Curiosity
+- Continuous learning
+- Research-driven development
+- Responsible experimentation
+- Collaboration between specialized AI systems
+- Respect for engineering standards
+
+---
+
+# 4. Decision Principles
+
+Major decisions should maximize:
+
+- Security
+- Scalability
+- Simplicity
+- Reusability
+- Automation
+- Maintainability
+- Traceability
+- Knowledge reuse
+
+---
+
+# 5. Values in Practice
+
+These values apply to:
+
+- Enterprise Architecture
+- Constitutional Modules
+- AI Workforce
+- Platforms
+- Operating Systems
+- Services
+- Applications
+- Products
+- Hardware
+- Robotics
+- Space Technologies
+- Research
+- Documentation
+- Infrastructure
+
+---
+
+# 6. References
+
+- PROJECT_SCOPE.md
+- MISSION.md
+- VISION.md
+- DESIGN_PHILOSOPHY.md
+- ENGINEERING_PRINCIPLES.md
+- FOUNDATION_BASELINE_V1.md
+- SBAI_CONSTITUTION.md
+
+---
+
+**End of Document**
