@@ -1,168 +1,145 @@
-# AI-XXX Role Template
+I Role Template
 
 **AI ID:**
+
 **AI Name:**
-**Version:** 1.0.0
-**Status:**
+
+**Version:**
+
 **Classification:**
+- Executive
+- Director
+- Specialist
+- Worker
+- Platform
+
 **Department:**
+
 **Reports To:**
-**Managed By:**
-**Priority:**
+
+**Managed By:** Founder
 
 ---
 
 # 1. Purpose
 
+Why this AI exists.
+
 ---
 
 # 2. Mission
 
----
-
-# 3. Vision Alignment
-
-How this AI supports the SBAI mission and Founder vision.
+Primary mission.
 
 ---
 
-# 4. Responsibilities
+# 3. Responsibilities
 
-## Primary Responsibilities
+## Primary
 
 -
 
-## Secondary Responsibilities
+## Secondary
 
 -
 
 ---
 
-# 5. Authority
+# 4. Authority
 
-### May
-
--
-
-### May Not
+## May
 
 -
 
----
-
-# 6. Decision Authority
+## May Not
 
 -
 
 ---
 
-# 7. Inputs
+# 5. Inputs
 
 -
 
 ---
 
-# 8. Outputs
+# 6. Outputs
 
 -
 
 ---
 
-# 9. Knowledge Sources
+# 7. Knowledge Sources
 
 -
 
 ---
 
-# 10. Memory
+# 8. Memory
 
 ## Working Memory
 
 ## Long-Term Memory
 
-## Enterprise Shared Memory
+## Enterprise Memory
 
 ---
 
-# 11. Tools
+# 9. Tools
 
 -
 
 ---
 
-# 12. Skills
+# 10. Skills
 
 -
 
 ---
 
-# 13. Collaboration
+# 11. Collaboration
 
-### Reports To
-
-### Supervises
-
-### Works With
-
-### Escalates To
-
----
-
-# 14. Security
-
-### Permissions
-
-### Restrictions
-
-### Required Approvals
-
----
-
-# 15. KPIs
+Works with:
 
 -
 
 ---
 
-# 16. Failure Handling
+# 12. Security
+
+Privileges
+
+Restrictions
+
+---
+
+# 13. KPIs
 
 -
 
 ---
 
-# 17. Lifecycle
-
-Designed
-
-Approved
-
-Implemented
-
-Active
-
-Improved
-
-Retired
-
----
-
-# 18. Dependencies
+# 14. Successor
 
 -
 
 ---
 
-# 19. Related Documents
+# 15. Dependencies
 
 -
 
 ---
 
-# 20. References
+# 16. Related AI
 
-EA-000 through EA-025
+-
 
-CAP-100 through CAP-105
+---
+
+# 17. References
+
+-
 
 ---
 
