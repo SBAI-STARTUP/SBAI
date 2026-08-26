@@ -2,7 +2,7 @@ from contextlib import asynccontextmanager
 
 from fastapi import FastAPI
 
-from sbai_api_gateway.api.health import router as health_router
+from sbai_api_gateway.api.router import router as api_router
 from sbai_api_gateway.core.config import settings
 
 
@@ -17,4 +17,14 @@ app = FastAPI(
     lifespan=lifespan,
 )
 
-app.include_router(health_router)
+
+@app.get("/")
+async def root() -> dict[str, str]:
+    return {
+        "service": settings.service_name,
+        "version": settings.service_version,
+        "status": "ok",
+    }
+
+
+app.include_router(api_router)
