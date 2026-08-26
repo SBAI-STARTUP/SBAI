@@ -25,3 +25,13 @@ def test_root():
         "version": "0.1.0",
         "status": "ok",
     }
+
+def test_api_v1_info():
+    response = client.get("/api/v1")
+
+    assert response.status_code == 200
+    assert response.json() == {
+        "api_version": "v1",
+        "service": "api-gateway",
+        "status": "ok",
+    }
