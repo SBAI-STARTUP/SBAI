@@ -16,13 +16,26 @@ client = TestClient(app)
 
 
 def test_health():
-    response = client.get("/api/v1/health")
+    request_id = "550e8400-e29b-41d4-a716-446655440000"
+
+    response = client.get(
+        "/api/v1/health",
+        headers={"X-Request-ID": request_id},
+    )
 
     assert response.status_code == 200
+    assert response.headers["X-Request-ID"] == request_id
+
     assert response.json() == {
-        "status": "ok",
-        "service": "api-gateway",
-        "version": "0.1.0",
+        "success": True,
+        "data": {
+            "status": "ok",
+            "service": "api-gateway",
+            "version": "0.1.0",
+        },
+        "meta": {
+            "request_id": request_id,
+        },
     }
 
 
@@ -212,3 +225,4 @@ def test_valid_request_id_is_preserved():
 
     assert response.status_code == 200
     assert response.headers["X-Request-ID"] == request_id
+
