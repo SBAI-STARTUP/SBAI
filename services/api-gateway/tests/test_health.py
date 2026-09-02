@@ -16,13 +16,26 @@ client = TestClient(app)
 
 
 def test_health():
-    response = client.get("/api/v1/health")
+    request_id = "550e8400-e29b-41d4-a716-446655440000"
+
+    response = client.get(
+        "/api/v1/health",
+        headers={"X-Request-ID": request_id},
+    )
 
     assert response.status_code == 200
+    assert response.headers["X-Request-ID"] == request_id
+
     assert response.json() == {
-        "status": "ok",
-        "service": "api-gateway",
-        "version": "0.1.0",
+        "success": True,
+        "data": {
+            "status": "ok",
+            "service": "api-gateway",
+            "version": "0.1.0",
+        },
+        "meta": {
+            "request_id": request_id,
+        },
     }
 
 
@@ -49,15 +62,27 @@ def test_api_v1_info():
 
 
 def test_system_info():
-    response = client.get("/api/v1/system")
+    request_id = "550e8400-e29b-41d4-a716-446655440000"
+
+    response = client.get(
+        "/api/v1/system",
+        headers={"X-Request-ID": request_id},
+    )
 
     assert response.status_code == 200
-    assert response.json() == {
-        "service": "api-gateway",
-        "version": "0.1.0",
-        "status": "ok",
-    }
+    assert response.headers["X-Request-ID"] == request_id
 
+    assert response.json() == {
+        "success": True,
+        "data": {
+            "service": "api-gateway",
+            "version": "0.1.0",
+            "status": "ok",
+        },
+        "meta": {
+            "request_id": request_id,
+        },
+    }
 
 def test_sbai_error_http_contract():
     test_app = FastAPI()
