@@ -225,4 +225,3 @@ def test_valid_request_id_is_preserved():
 
     assert response.status_code == 200
     assert response.headers["X-Request-ID"] == request_id
-
